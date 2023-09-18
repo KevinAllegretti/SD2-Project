@@ -1,0 +1,169 @@
+/* Some root variables */
+:root {
+    --background: #868585;
+    --foreground: #222;
+    --white: #fff;
+    --black: #000;
+    --border: rgb(100, 35, 35);
+}
+
+/* Styling the ID subscription pop up */
+#subscription{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    padding: 10px;
+    background-color: rgb(201, 52, 52);
+    border: 30px;
+    border-color: #000;
+    z-index: 300;
+
+}
+
+/* Top half of the screen style*/
+.topHalf{
+    padding: 20px;
+    background-color: rgb(216, 8, 8);
+    border-radius: 8px;
+    margin: 20px auto;
+    max-width: 650px;
+}
+
+/* position for the photo */
+.container{
+    position: relative;
+    z-index: 10
+}
+
+/* Center the "Oversteer" inside the photo */
+.text-block {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10
+}
+
+/* Font for the Oversteer */
+h4 {
+    margin: 0;
+    font-size: 24px;
+    z-index: 10
+}
+
+/* Header styling */
+.intro {
+    padding: 20px;
+    text-align: center;
+    background-color: var(--foreground);
+    color: var(--white);
+    border-radius: 8px;
+    margin: 20px auto;
+    max-width: 600px;
+    z-index: 10
+}
+  
+/* Login form styling */
+.logIn {
+    margin: 20px auto;
+    max-width: 600px;
+    background-color: #b9b5b5;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    z-index: 10
+}
+
+.middlePage{
+    padding: 20px;
+    background-color: rgb(183, 180, 176);
+    border-radius: 8px;
+    margin: 20px auto;
+    max-width: 650px;
+}
+
+/* Picture gallery styling */
+.pictures {
+    margin: 20px auto;
+    max-width: 600px;
+}
+  
+.pictures p2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+
+.xavier {
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+.Rob {
+    margin: 20px auto;
+    max-width: 600px;
+}
+  
+.Rob p4, .Rob p5 {
+    font-size: 14px;
+    color: rgb(26, 25, 25);
+    margin-bottom: 5px;
+}
+  
+.xavier p1, .xavier p3 {
+    font-size: 14px;
+    color: rgb(20, 19, 19);
+    margin-top: 5px;
+}
+
+.xavier img {
+    max-width: 100%;
+    margin-top: 10px;
+}
+  
+.Rob img {
+    max-width: 100%;
+    margin-top: 10px;
+}
+
+.bottomHalf{
+    padding: 20px;
+    background-color: rgb(13, 18, 164);
+    border-radius: 8px;
+    margin: 20px auto;
+    max-width: 650px;
+}
+
+/* Q&A styling */
+.QandA {
+    max-width: 600px;
+}
+  
+.question1, .question2 {
+    margin-bottom: 20px;
+}
+  
+.question1 p11, .question2 p14 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+  
+.question1 p12, .question2 p15 {
+    font-size: 14px;
+    color: #999;
+    margin-top: 5px;
+}
+
+.question1 p13, .question2 p16 {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.question1 img, .question2 img {
+    max-width: 100%;
+    margin-top: 10px;
+  }

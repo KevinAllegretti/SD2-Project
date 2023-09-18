@@ -1,0 +1,25 @@
+{
+  "name": "221-lab5-project-initialization",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaristGormanly/221-Lab5-Project-Initialization.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MaristGormanly/221-Lab5-Project-Initialization/issues"
+  },
+  "homepage": "https://github.com/MaristGormanly/221-Lab5-Project-Initialization#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "pg": "^8.10.0"
+  }
+}

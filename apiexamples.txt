@@ -1,0 +1,6 @@
+/api/user GET application/json
+/api/user POST application/json {"firstname":"George", "lastname":"Lucas"}
+/api/user/:index GET application/json
+/api/user/:index PUT  application/json {"firstname":"Kevin", "lastname":"Doe", "email":"KevinDoe@gmail.com",}
+/api/user/:index PATCH  application/json {"firstname":"Gabe"}
+/api/user/:index DELETE  application/json
